@@ -3,36 +3,32 @@ background-color: deepskyblue;
 text-decoration-color: red;
 }
 
-a{
-    text-decoration-color: black;
-    color: black;
-}
-h1{
+
+
+.homepagetitle{
     text-align: center;
-    color: black;
+    color: white;
     border-style: solid;
-    border-color: black;
+    border-color: white;
     background-color: blue;
     border-radius: 10px;
 }
 a{
-    color: black;
+    color: white;
     border-style: solid;
-    border-color: black;
+    border-color: white;
     background-color: blue;
     border-width: 2px;
     border-radius: 3px;
 }
-p{
+
+.homepagetext{
     text-align: center;
-}
-h4{
-    text-align: center;
-    color: black;
+    color: white;
     border-style: solid;
-    border-color: black;
+    border-color: white;
     background-color: blue;
-    border-width: 2px;
+    border-width: 3px;
     border-radius: 3px;
 }
 .images{
@@ -46,4 +42,9 @@ img{
     border-width: 5px;
     border-style: solid;
     border-radius: 10px;
+}
+.godzillacharacters{
+    height: 50px;
+    width: 50px;
+
 }
