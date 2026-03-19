@@ -2,9 +2,6 @@ body{
 background-color: deepskyblue;
 text-decoration-color: red;
 }
-
-
-
 .homepagetitle{
     text-align: center;
     color: white;
@@ -21,7 +18,6 @@ a{
     border-width: 2px;
     border-radius: 3px;
 }
-
 .homepagetext{
     text-align: center;
     color: white;
@@ -29,22 +25,45 @@ a{
     border-color: white;
     background-color: blue;
     border-width: 3px;
-    border-radius: 3px;
+    border-radius: 10px;
 }
 .images{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;  
 }
-img{
-     width: 187px;
+ img{
+    width: 187px;
     border-color: black;
     border-width: 5px;
     border-style: solid;
     border-radius: 10px;
+}    
+.links1{
+    text-align: center;
 }
-.godzillacharacters{
-    height: 50px;
-    width: 50px;
+
+h1{
+    text-align: center;
+}
+
+.beyblade_background{
+    background-color: white;
+}
+
+.beyblade_characters{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sonic_background{
+    background-color: white;
+}
+
+.sonic_characters{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
 
 }
