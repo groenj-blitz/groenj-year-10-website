@@ -30,6 +30,9 @@ a{
 .images{
     display: flex;
     justify-content: center;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
  img{
     width: 187px;
@@ -39,7 +42,11 @@ a{
     border-radius: 10px;
 }    
 .links1{
-    text-align: center;
+    display: flex;
+    justify-content: center;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 h1{
@@ -65,5 +72,24 @@ h1{
     width: 100px;
     display: flex;
     flex-direction: column;
+}
 
+.godzilla_background{
+    background-color: white;
+}
+
+.godzilla_characters{
+    width: 100px;
+    display: flex;
+    flex-direction: column
+}
+
+.ninjago_background{
+    background-color: white;
+}
+
+.ninjago_characters{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
 }
