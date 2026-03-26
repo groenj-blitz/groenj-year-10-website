@@ -81,7 +81,11 @@ h1{
 .godzilla_characters{
     width: 100px;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+}
+
+.godzillla_character_info{
+    float: right;
 }
 
 .ninjago_background{
